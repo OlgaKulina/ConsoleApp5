@@ -25,6 +25,11 @@ namespace ConsoleApp5
         {
             return a / b;
         }
+        public double Sub1 (double a, double b)
+        {
+            return a - b;
+        }
+
 
     }
 }
