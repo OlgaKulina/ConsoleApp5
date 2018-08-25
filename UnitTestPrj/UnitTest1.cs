@@ -43,8 +43,20 @@ namespace UnitTestPrj
             Assert.AreEqual(exp, actual);
         }
 
-       
-        
+        [TestMethod]
+        public void TestSum()
+        {
+            Calculator c = new Calculator();
+            double a = 150;
+            double b = 130;
+
+            double exp = 280;
+            double actual = c.Sum(a, b);
+            Assert.AreEqual(exp, actual);
+
+        }
+
+
 
     }
 }
